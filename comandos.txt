@@ -1,0 +1,19 @@
+  921  mkdir Checkpoint-JuanBautistaQuiroga
+  922  cd Checkpoint-JuanBautistaQuiroga/
+  923  git init
+  924  git remote add origin https://github.com/juanbaquiroga/Checkpoint-JuanBautistaQuiroga.git
+  925  touch main.js index.html
+  926  git add .
+  927  git commit -m "commit 01 de JuanBautistaQuiroga"
+  928  git push -u origin main
+  929  git branch feature
+  930  git checkout feature
+  931  mkdir Hardware Software SeguridadInformatica
+  932  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  933  git add .
+  934  git commit -m "commit 02 de JuanBautistaQuiroga"
+  935  git push -u origin feature
+  936  git checkout main
+  937  mv main.js resumenHardware.txt
+  938  mv index.html resumenSoftware.txt
+  939  touch comandos.txt
